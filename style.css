@@ -1,0 +1,195 @@
+*{
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    margin: 0 0 0 0;
+    color: white;
+    font-family: "Poppis", sans-serif;
+}
+
+.aside_informacoes{
+    position: fixed;
+    background-color: rgb(192, 192, 192);
+    float: left;
+    width: 30vw;
+    height: 100vh;
+}
+
+.content{
+    transform: scale(0.80);
+    display: none;
+    height: 325px;
+    width: 70vw;
+    position: fixed;
+    right: 0;
+    top: 20px;
+    color: black;
+}
+
+.perfil{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+h1, h2{
+    margin-top: 10px;
+    color: black;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+h3{
+    font-size: 27px;
+    background-color: rgb(192, 192, 192);
+    color: rgb(85, 81, 81);
+}
+
+h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(192, 192, 192);
+    color: rgb(85, 81, 81);
+}
+
+h5, h6{
+    font-size: 20px;
+    color: black;
+}
+
+.tabela_form_acad{
+    font-size: 20px;
+    color: black;
+    background-color: rgb(243, 243, 243);
+    text-align: left;
+    list-style: outside;
+}
+
+label{
+    background-color: rgb(192, 192, 192);
+    color: rgb(85, 81, 81);
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    padding-right: 45px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+label:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(75, 74, 74);
+}
+
+ul{
+    list-style: none;
+    background-color: rgb(192, 192, 192);
+}
+
+.button{
+    color: rgb(192, 192, 192);
+    background-color: rgb(192, 192, 192);
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);
+    margin-top: 20px;
+    margin: auto;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.proj{
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgb(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.2s ease-out;
+    background-color: rgb(192, 192, 192);
+}
+
+#pj{
+    transform: scale(0.70);
+}
+
+#img_card{
+    height: 150px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.conteudo_sobre{
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+}
+
+/* comportamento dos cards de projetos*/
+#proj_1:hover, #proj_2:hover, #proj_3:hover, #proj_4:hover, #proj_5:hover, #proj_6:hover{
+    transform: translate(-5px);
+    cursor: pointer;
+    border-bottom: 5px solid black;
+}
+
+#conteudo_card{
+    background-color: rgb(192, 192, 192);
+}
+
+.row_1, .row_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rd_tabs{
+    display: none;
+}
+
+.rd_tabs:checked ~ .content{
+    display: block;
+    height: 320px;
+    color: black;
+    background-color: rgb(243, 243, 243);
+}
+
+.rd_tabs:checked ~ label{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.git, .lin, .yt{
+    border-radius: 55%;
+    max-width: 45px;
+    max-height: 45px;
+    background-color: rgb(192, 192, 192);
+}
+
+.links{
+    background-color: rgb(192, 192, 192);
+}
+
+#mt{
+    font-size: 21px;
+}
+
+#apresentacao{
+    margin-top: 5px;
+}
+
+a{
+    text-decoration: none;
+}
