@@ -1,0 +1,96 @@
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+    padding: 3px;
+}
+
+.topnav a{
+    padding: 17px 23px;
+    color: white;
+    text-align: center;
+    display: block;
+    float: left;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+#principal{
+    background-image: url("img/advocacia.png");
+    background-size: 100%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+#coluna1-principal{
+    float: left;
+    width: 45%;
+    background-color: rgba(235, 235, 235, 0.418);
+    padding: 4%;
+    text-align: left;
+}
+#coluna2-principal{
+    float: right;
+    width: 55%;
+}
+
+#area{
+    background-color: #fffbfb;
+}
+
+.card img{
+    opacity: 0.3;
+}
+
+.card:hover {
+    -webkit-box-shadow: -1px 9px 40px rgba(0,0,0,0.75);
+    -moz-box-sadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+}
+
+#quem-somos{
+    width: 100%;
+    padding: 6%;
+}
+
+.mapa{
+    float: right;
+    width: 50%;
+    padding: 4%;
+}
+
+.e-mail-contato{
+    float: left;
+    width: 50%;
+    padding: 4%;
+}
+
+.map-container-3{
+    overflow:hidden;
+    padding-bottom:80%;
+    position:relative;
+    height:0;
+}
+
+.map-container-3 iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.footer{
+    background-color: #3f3838;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
